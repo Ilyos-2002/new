@@ -1,0 +1,149 @@
+.footerTop {
+    background: #282B30;
+    padding-top: 22px;
+    padding-bottom: 22px;
+
+}
+
+.contentt {
+    display: flex;
+    align-items: center;
+}
+
+.logo__content {
+    display: flex;
+    gap: 14px;
+    align-items: center;
+}
+
+.Link {
+    border-radius: 50%;
+    background: #414D6A;
+    padding: auto;
+
+}
+
+
+.logo {
+    /* width: 67px;
+    height: 67px; */
+
+    margin: 24px 13px;
+
+
+    width: 42px;
+    height: 22px;
+
+}
+
+.logo__text {
+    font-style: normal;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 17px;
+    /* or 121% */
+    width: 157px;
+    color: #FFFFFF;
+    mix-blend-mode: normal;
+    opacity: 0.1;
+}
+
+.text__middle {
+    font-style: normal;
+    font-weight: 500;
+    font-size: 15px;
+    line-height: 18px;
+    width: 307px;
+    margin-left: 135px;
+    margin-right: 90px;
+    color: #98A4B7;
+}
+
+.link__wrapper {
+    display: flex;
+    align-items: center;
+}
+
+
+.img__footer {
+    opacity: 0.7;
+    border: 1px solid #FFFFFF;
+    padding: 13px;
+    border-radius: 50%;
+}
+
+.footer__middle {
+    background: #33383C;
+    padding-top: 52px;
+
+}
+
+.wrapper__content {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    background: #212121;
+    border-radius: 100px;
+    padding: 6px 30px 6px 13px;
+}
+
+.wrapper__text {
+    color: #FFFFFF;
+    font-size: 9px;
+    margin-bottom: 6px;
+}
+
+.wrapper__title {
+    color: #FFFFFF;
+    font-size: 14px;
+    font-weight: 400;
+
+}
+
+a {
+    text-decoration: none;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 29px;
+    color: #878F99;
+}
+
+.wrapper__middle__content {
+    display: flex;
+    justify-content: space-between;
+    border-bottom: 1px solid #4C565E;
+    padding-bottom: 24px;
+
+}
+
+.footer__middle-ttile {
+    font-family: Arial;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 16px;
+
+    color: #FFFFFF;
+}
+
+.footer__bottom {
+    background: #33383C;
+
+}
+
+.footer__bottom-list {
+    display: flex;
+    align-items: center;
+    gap: 50px;
+    padding: 27px 0;
+
+}
+
+.footer__link {
+    font-style: normal;
+    font-weight: 600;
+    font-size: 15px;
+    line-height: 18px;
+    color: #878F99;
+}
