@@ -3,13 +3,10 @@ import "./Header.css"
 import { HeaderTop } from "./HeaderTop";
 import { HeaderBottom } from "./HeaderBottom";
 
-export function Header() {
+export function HeaderBsiz() {
     return (
         <header>
             <HeaderTop />
-            <HeaderBottom />
-
-
         </header>
     )
 }

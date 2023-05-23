@@ -1,0 +1,148 @@
+.classlogin {
+    display: flex;
+    align-items: baseline;
+    justify-content: space-between;
+}
+
+.classlogins {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    width: 390px;
+
+}
+
+.input {
+    outline: none;
+    padding: 20px 25px 20px 25px;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 19px;
+    line-height: 22px;
+    width: auto;
+    margin-bottom: 24px;
+
+    color: #C7C7C7;
+}
+
+.login__title {
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 28px;
+    text-align: center;
+    text-transform: uppercase;
+
+    color: #000000;
+    margin-bottom: 30px;
+}
+
+.label {
+    font-style: normal;
+    font-weight: 500;
+    font-size: 17px;
+    line-height: 20px;
+    /* identical to box height */
+
+    text-align: center;
+
+    color: #787993;
+    margin-left: auto;
+    margin-bottom: 8px;
+}
+
+.login__btn {
+    font-style: normal;
+    font-weight: 500;
+    font-size: 17px;
+    line-height: 20px;
+    /* identical to box height */
+
+    text-align: center;
+
+    color: #FFFFFF;
+    background: #41D481;
+    border-radius: 5px;
+    padding: 0 120px;
+    padding-top: 21px;
+    padding-bottom: 21px;
+    border: none;
+    margin-bottom: 70px;
+}
+
+.login_ili {
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 16px;
+    text-align: center;
+
+    color: #787993;
+    margin-bottom: 20px;
+}
+
+.login__link {
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 19px;
+    text-align: center;
+
+    color: #4E72CA;
+
+}
+
+.login__div {
+    text-align: center;
+}
+
+.bg {
+    width: 654px;
+    /* height: 700px; */
+    background-image: url("./loginbg.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+
+}
+
+.login__content {
+    margin-top: 372px;
+    margin-left: 61px;
+    margin-bottom: 185px;
+    display: flex;
+    flex-direction: column;
+    width: 275px;
+    align-items: center;
+    justify-content: center;
+
+    background: #FFFFFF;
+    border-radius: 220px 220px 220px 25px;
+}
+
+.text__login {
+    font-style: normal;
+    font-weight: 700;
+    font-size: 19px;
+    line-height: 21px;
+    /* or 111% */
+    margin-top: 112px;
+    margin-bottom: 19px;
+
+
+    color: #787993;
+    width: 213px;
+    display: inline-block;
+}
+
+.login__content_link {
+    border: 2px solid #41D481;
+    border-radius: 5px;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 19px;
+    /* identical to box height */
+    padding: 10px 17px;
+    margin-bottom: 52px;
+
+    color: #41D481;
+}

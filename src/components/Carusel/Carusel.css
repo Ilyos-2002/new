@@ -1,0 +1,29 @@
+.carusel__list {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 30px;
+    overflow: hidden;
+    padding: 37px 0;
+}
+
+.carusel__div {
+    width: 77px;
+    height: 77px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: #B6CAFB;
+    border-radius: 20px;
+    padding: 20px;
+    margin-bottom: 6px;
+}
+
+.carusel__text {
+    font-style: normal;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 16px;
+
+    color: #4A4A4A;
+}

@@ -1,213 +1,44 @@
+import axios from "axios"
 import "./Card.css"
+import { useSelector } from "react-redux"
+import React from "react"
 
 
 export function Card() {
+    const [data, setData] = React.useState([])
+    React.useEffect(() => {
+        axios.get('https://fakestoreapi.com/products')
+            .then((res) => {
+                setData(res.data);
+            })
+    }, [])
+
+
+
+
+
+
+
     return (
         <div className="container">
             <ul className="card__wrapper">
-                <li className="card">
-                    <img src="https://picsum.photos/300/207" width={262} height={207} alt="img" />
-                    <div className="content">
-                        <h3 className="card__title">Маркетолог. Консультирование. Настройка рекламы</h3>
-                        <p className="card__time">
-                            Вчера 22:55
-                        </p>
-                        <h4>39 000 000 сум</h4>
-                    </div>
-                </li>
-                <li className="card">
-                    <img src="https://picsum.photos/300/207" width={262} height={207} alt="img" />
-                    <div className="content">
-                        <h3 className="card__title">Маркетолог. Консультирование. Настройка рекламы</h3>
-                        <p className="card__time">
-                            Вчера 22:55
-                        </p>
-                        <h4>39 000 000 сум</h4>
-                    </div>
-                </li>
-                <li className="card">
-                    <img src="https://picsum.photos/300/207" width={262} height={207} alt="img" />
-                    <div className="content">
-                        <h3 className="card__title">Маркетолог. Консультирование. Настройка рекламы</h3>
-                        <p className="card__time">
-                            Вчера 22:55
-                        </p>
-                        <h4>39 000 000 сум</h4>
-                    </div>
-                </li>
-                <li className="card">
-                    <img src="https://picsum.photos/300/207" width={262} height={207} alt="img" />
-                    <div className="content">
-                        <h3 className="card__title">Маркетолог. Консультирование. Настройка рекламы</h3>
-                        <p className="card__time">
-                            Вчера 22:55
-                        </p>
-                        <h4>39 000 000 сум</h4>
-                    </div>
-                </li>
-                <li className="card">
-                    <img src="https://picsum.photos/300/207" width={262} height={207} alt="img" />
-                    <div className="content">
-                        <h3 className="card__title">Маркетолог. Консультирование. Настройка рекламы</h3>
-                        <p className="card__time">
-                            Вчера 22:55
-                        </p>
-                        <h4>39 000 000 сум</h4>
-                    </div>
-                </li>
-                <li className="card">
-                    <img src="https://picsum.photos/300/207" width={262} height={207} alt="img" />
-                    <div className="content">
-                        <h3 className="card__title">Маркетолог. Консультирование. Настройка рекламы</h3>
-                        <p className="card__time">
-                            Вчера 22:55
-                        </p>
-                        <h4>39 000 000 сум</h4>
-                    </div>
-                </li>
-                <li className="card">
-                    <img src="https://picsum.photos/300/207" width={262} height={207} alt="img" />
-                    <div className="content">
-                        <h3 className="card__title">Маркетолог. Консультирование. Настройка рекламы</h3>
-                        <p className="card__time">
-                            Вчера 22:55
-                        </p>
-                        <h4>39 000 000 сум</h4>
-                    </div>
-                </li>
-                <li className="card">
-                    <img src="https://picsum.photos/300/207" width={262} height={207} alt="img" />
-                    <div className="content">
-                        <h3 className="card__title">Маркетолог. Консультирование. Настройка рекламы</h3>
-                        <p className="card__time">
-                            Вчера 22:55
-                        </p>
-                        <h4>39 000 000 сум</h4>
-                    </div>
-                </li>
-                <li className="card">
-                    <img src="https://picsum.photos/300/207" width={262} height={207} alt="img" />
-                    <div className="content">
-                        <h3 className="card__title">Маркетолог. Консультирование. Настройка рекламы</h3>
-                        <p className="card__time">
-                            Вчера 22:55
-                        </p>
-                        <h4>39 000 000 сум</h4>
-                    </div>
-                </li>
-                <li className="card">
-                    <img src="https://picsum.photos/300/207" width={262} height={207} alt="img" />
-                    <div className="content">
-                        <h3 className="card__title">Маркетолог. Консультирование. Настройка рекламы</h3>
-                        <p className="card__time">
-                            Вчера 22:55
-                        </p>
-                        <h4>39 000 000 сум</h4>
-                    </div>
-                </li>
-                <li className="card">
-                    <img src="https://picsum.photos/300/207" width={262} height={207} alt="img" />
-                    <div className="content">
-                        <h3 className="card__title">Маркетолог. Консультирование. Настройка рекламы</h3>
-                        <p className="card__time">
-                            Вчера 22:55
-                        </p>
-                        <h4>39 000 000 сум</h4>
-                    </div>
-                </li>
-                <li className="card">
-                    <img src="https://picsum.photos/300/207" width={262} height={207} alt="img" />
-                    <div className="content">
-                        <h3 className="card__title">Маркетолог. Консультирование. Настройка рекламы</h3>
-                        <p className="card__time">
-                            Вчера 22:55
-                        </p>
-                        <h4>39 000 000 сум</h4>
-                    </div>
-                </li>
-                <li className="card">
-                    <img src="https://picsum.photos/300/207" width={262} height={207} alt="img" />
-                    <div className="content">
-                        <h3 className="card__title">Маркетолог. Консультирование. Настройка рекламы</h3>
-                        <p className="card__time">
-                            Вчера 22:55
-                        </p>
-                        <h4>39 000 000 сум</h4>
-                    </div>
-                </li>
-                <li className="card">
-                    <img src="https://picsum.photos/300/207" width={262} height={207} alt="img" />
-                    <div className="content">
-                        <h3 className="card__title">Маркетолог. Консультирование. Настройка рекламы</h3>
-                        <p className="card__time">
-                            Вчера 22:55
-                        </p>
-                        <h4>39 000 000 сум</h4>
-                    </div>
-                </li>
-                <li className="card">
-                    <img src="https://picsum.photos/300/207" width={262} height={207} alt="img" />
-                    <div className="content">
-                        <h3 className="card__title">Маркетолог. Консультирование. Настройка рекламы</h3>
-                        <p className="card__time">
-                            Вчера 22:55
-                        </p>
-                        <h4>39 000 000 сум</h4>
-                    </div>
-                </li>
-                <li className="card">
-                    <img src="https://picsum.photos/300/207" width={262} height={207} alt="img" />
-                    <div className="content">
-                        <h3 className="card__title">Маркетолог. Консультирование. Настройка рекламы</h3>
-                        <p className="card__time">
-                            Вчера 22:55
-                        </p>
-                        <h4>39 000 000 сум</h4>
-                    </div>
-                </li>
-                <li className="card">
-                    <img src="https://picsum.photos/300/207" width={262} height={207} alt="img" />
-                    <div className="content">
-                        <h3 className="card__title">Маркетолог. Консультирование. Настройка рекламы</h3>
-                        <p className="card__time">
-                            Вчера 22:55
-                        </p>
-                        <h4>39 000 000 сум</h4>
-                    </div>
-                </li>
-                <li className="card">
-                    <img src="https://picsum.photos/300/207" width={262} height={207} alt="img" />
-                    <div className="content">
-                        <h3 className="card__title">Маркетолог. Консультирование. Настройка рекламы</h3>
-                        <p className="card__time">
-                            Вчера 22:55
-                        </p>
-                        <h4>39 000 000 сум</h4>
-                    </div>
-                </li>
-                <li className="card">
-                    <img src="https://picsum.photos/300/207" width={262} height={207} alt="img" />
-                    <div className="content">
-                        <h3 className="card__title">Маркетолог. Консультирование. Настройка рекламы</h3>
-                        <p className="card__time">
-                            Вчера 22:55
-                        </p>
-                        <h4>39 000 000 сум</h4>
-                    </div>
-                </li>
-                <li className="card">
-                    <img src="https://picsum.photos/300/207" width={262} height={207} alt="img" />
-                    <div className="content">
-                        <h3 className="card__title">Маркетолог. Консультирование. Настройка рекламы</h3>
-                        <p className="card__time">
-                            Вчера 22:55
-                        </p>
-                        <h4>39 000 000 сум</h4>
-                    </div>
-                </li>
 
+                {
+                    data && data.map((item, index) =>
+                        <li key={index} className="card">
+                            <img src={item.image} width={262} height={207} alt="img" />
+                            <div className="content">
+                                <h3 className="card__title">{item.title}</h3>
+                                <p className="card__time">
+                                    Rate: {item.rating.rate} |  Count: {item.rating.count}
+                                </p>
+                                <h4>{item.price} $</h4>
 
+                            </div>
+                        </li>
 
+                    )
+                }
             </ul>
 
         </div>
