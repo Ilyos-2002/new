@@ -45,7 +45,7 @@ function App() {
       <Route path='/login' element={<Login />} />
       <Route path='/login' element={<Magazin />} />
       <Route path="*" element={<NotFond />} />
-      <Route path='/user/:userId' element={<ProductCard userData={userData} />} />
+      <Route path='/product/:userId' element={<ProductCard userData={userData} />} />
     </Routes>
   );
 }

@@ -51,6 +51,6 @@ export default function FakeCard() {
                 </li>
 
             </ul>
-            FakeCard</div>
+        </div>
     )
 }
